@@ -1,5 +1,5 @@
 # Example file showing a circle moving on screen
-import pygame # type: ignore
+import pygame  # type: ignore
 
 # pygame setup
 pygame.init()
@@ -36,7 +36,7 @@ while running:
     pygame.display.flip()
 
     # limits FPS to 60
-    # dt is delta time in seconds since last frame, used for framerate-
+    # dt is delta time in seconds since last frame, used for framer-
     # independent physics.
     dt = clock.tick(60) / 1000
 
